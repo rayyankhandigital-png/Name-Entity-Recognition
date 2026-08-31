@@ -23,7 +23,9 @@ The application takes text from the user and identifies named entities such as *
 ## 🛠️ Technologies Used
 
  Python
+ 
  Streamlit — for the web interface
+ 
  Hugging Face Transformers — for the pre-trained NER model
 
 ## 🤖 Model
@@ -34,9 +36,13 @@ This project uses the following pre-trained model from Hugging Face:
 
 ## 📂 Project Structure
 NER-Project/
+
 │
+
 ├── main.py
+
 ├── README.md
+
 └── requirements.txt
 
 ### `app.py`
