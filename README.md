@@ -69,48 +69,15 @@ streamlit run app.py
 
 The application will open in your web browser.
 
-## 💻 How It Works
+## 🔍 How Named Entity Recognition Works
 
-The project uses the Hugging Face `pipeline()` function to perform Named Entity Recognition.
-
-## python
-from transformers import pipeline
-
-ner = pipeline(
-    "ner",
-    model="learnrr/bert-base-ontonotes5-ner",
-    aggregation_strategy="simple"
-)
-
-text = "Apple hired John Smith in London"
-
-result = ner(text)
-
-for entity in result:
-    print(entity)
-```
-
-The model analyzes the input text and identifies entities along with their labels and confidence scores.
-
-## 📝 Example
-
-### Input
-
-```text
-Apple hired John Smith in London.
-```
-
-### Output
-
-```text
-Apple       → Organization
-John Smith  → Person
-London      → Location
-```
-
-The exact entities and labels depend on the model's prediction.
-
-## 📋 Requirements
+1. The user types a sentence into the **Streamlit application**.
+2. The **Transformers pipeline** receives and processes the text.
+3. The **BERT model** examines the words and their context.
+4. The model detects important names and assigns categories such as **Person, Location, Organization**, and others.
+5. The detected entities and their categories are shown to the user in the **Streamlit interface**.
+ 
+## 📋 Other Requirements
 
  Model
  requirement.txt
