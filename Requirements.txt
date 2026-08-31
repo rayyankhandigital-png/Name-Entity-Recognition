@@ -1,0 +1,6 @@
+## Streamlit 
+Streamlit is a Python library that lets you turn your Python code into a web application quickly and easily, without needing to learn HTML, CSS, or JavaScript.
+## Transformers
+Transformers is a Python library developed by Hugging Face that provides pre-trained AI models for Natural Language Processing (NLP) and other AI tasks.
+## Torch
+Torch is a deep learning framework that provides the computational engine needed to run many AI models, including BERT-based models used through Hugging Face Transformers.
