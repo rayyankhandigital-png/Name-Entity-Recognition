@@ -37,10 +37,10 @@ This project uses the following pre-trained model from Hugging Face:
 
 NER/
 │
-├── app.py
+├── main.py
 ├── requirements.txt
 └── README.md
-└── Screenshots
+
 ### `app.py`
 
 Contains the Streamlit user interface and the Named Entity Recognition code.
@@ -54,33 +54,13 @@ Contains the Python libraries required to run the project.
 Contains information and instructions about the project.
 
 ## 📦 Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Name-Entity-Recognition.git
-```
-
-### 2. Open the Project Folder
-
-```bash
-cd Name-Entity-Recognition
-```
-
-### 3. Install the Required Libraries
+### 1. Install the Required Libraries
 ## bash
 requirements.txt
-
-
-Or install them directly:
-
-## bash
-pip install streamlit transformers
+pip install streamlit transformers torch
 
 
 ## ▶️ Run the Application
-
-Start the Streamlit application using:
 
 ## bash
 streamlit run app.py
