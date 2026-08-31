@@ -22,15 +22,15 @@ The application takes text from the user and identifies named entities such as *
 
 ## 🛠️ Technologies Used
 
-## Python
-## Streamlit — for the web interface
-## Hugging Face Transformers — for the pre-trained NER model
+ Python
+ Streamlit — for the web interface
+ Hugging Face Transformers — for the pre-trained NER model
 
 ## 🤖 Model
 
 This project uses the following pre-trained model from Hugging Face:
 
-## https://huggingface.co/learnrr/bert-base-ontonotes5-ner
+ https://huggingface.co/learnrr/bert-base-ontonotes5-ner
 
 ## 📂 Project Structure
 
@@ -46,6 +46,9 @@ NER/
 Contains the Streamlit user interface and the Named Entity Recognition code.
 
 ### `requirements.txt`
+streamlit
+transformers
+torch
 
 Contains the Python libraries required to run the project.
 
@@ -111,10 +114,10 @@ The exact entities and labels depend on the model's prediction.
 
 ## 📋 Requirements
 
-## Model
-## requirement.txt
-## libraries
-## app.py
+ Model
+ requirement.txt
+ libraries
+ app.py
 
 > **Note:** Depending on your Python environment and Transformers setup, a backend such as PyTorch may also be required to run the model.
 
