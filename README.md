@@ -1,1 +1,1 @@
-# Name-Entity-Recognition
+# Name-Entity-Recognition Application (NER)
