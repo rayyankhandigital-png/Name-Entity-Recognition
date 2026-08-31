@@ -33,11 +33,11 @@ This project uses the following pre-trained model from Hugging Face:
  https://huggingface.co/learnrr/bert-base-ontonotes5-ner
 
 ## 📂 Project Structure
-NER/
+NER-Project/
 │
 ├── main.py
-├── requirements.txt
 ├── README.md
+└── requirements.txt
 
 ### `app.py`
 
@@ -58,6 +58,7 @@ Contains information and instructions about the project.
 ### 1. Install the Required Libraries
 ## bash
 requirements.txt
+
 pip install streamlit transformers torch
 
 
@@ -80,8 +81,11 @@ The application will open in your web browser.
 ## 📋 Other Requirements
 
  Model
+ 
  requirement.txt
+ 
  libraries
+ 
  app.py
 
 > **Note:** Depending on your Python environment and Transformers setup, a backend such as PyTorch may also be required to run the model.
