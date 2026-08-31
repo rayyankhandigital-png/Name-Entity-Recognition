@@ -33,8 +33,6 @@ This project uses the following pre-trained model from Hugging Face:
  https://huggingface.co/learnrr/bert-base-ontonotes5-ner
 
 ## 📂 Project Structure
-
-
 NER/
 │
 ├── main.py
