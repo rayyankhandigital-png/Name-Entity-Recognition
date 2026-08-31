@@ -37,7 +37,7 @@ NER/
 │
 ├── main.py
 ├── requirements.txt
-└── README.md
+├── README.md
 
 ### `app.py`
 
